@@ -1,26 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="min-h-screen bg-gray-900 text-white p-4">
+    <header class="text-center">
+      <h1 class="text-4xl font-bold mb-6">Cryptocurrency Prices</h1>
+    </header>
+    <PriceDisplay />
+    <HistoricalPrice />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+import PriceDisplay from './components/PriceDisplay.vue'
+import HistoricalPrice from './components/HistoricalPrice.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-  },
-};
-</script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+    PriceDisplay,
+    HistoricalPrice
+  }
 }
-</style>
+</script>
