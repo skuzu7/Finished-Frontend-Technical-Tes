@@ -1,3 +1,5 @@
+deploy: https://frontend-technical-test-six.vercel.app/
+
 # Historical Crypto Price Checker
 
 ![Crypto Image](https://github.com/skuzu7/Frontend-Technical-Test/assets/103225007/93f980cb-01c4-44ae-baf9-09ae992b0f2a)
